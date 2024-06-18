@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+    width: 100%;
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .logoNav {
+            border: 1px solid;
+            padding: 5px;
+        }
+    }
+}
+
+main {
+    width: 100%;
+
+    // login.php
+    .formLogin {
+        display: flex;
+        justify-content: center;
+
+        form {
+
+            label {
+                display: block;
+            }
+
+            input {
+                display: block;
+            }
+        }
+    }
+
+    // Cliente
+
+    // home.php
+    .cliente {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .carrito {
+        display: flex;
+        justify-content: center;
+
+        table {
+            width: 100%;
+        }
+    }
+
+    // Admin
+    
+    // home.php
+    .admin {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+.mainFooter {
+
+}
